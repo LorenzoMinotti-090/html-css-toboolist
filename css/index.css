@@ -8,13 +8,14 @@
 }
 /*header*/
 header {
-    padding: 20px;
+    
     background-color: lightgray;
     
 }
 /*title*/
-h1 {font-size: 50px; color: #000000;
-    
+h1 {font-size: 50px; 
+    color: rgb(0, 0, 0);
+
 }
 
 .button1{
@@ -25,3 +26,30 @@ h1 {font-size: 50px; color: #000000;
     background-color: white;
     color: grey
 }
+.containers{
+    text-align: center;
+}
+
+.true{
+   color: green;
+}
+.editorial{
+    background-color: aqua;
+    color: white;
+}
+ .q1{
+    background-color: blueviolet;
+    color: white;
+ }
+
+ .recruiting{
+    background-color: green;
+    color: white;
+ }
+ .false{
+    color: red;
+ }
+ .mobile{
+    background-color: orange;
+    color: white;
+ }
