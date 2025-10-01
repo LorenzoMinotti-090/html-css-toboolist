@@ -11,27 +11,26 @@
 <body>
     <header>
         <div class="header">
-            <img src="./img/Logo.png" alt="logo">
+            <img src="./img/Logo.png" alt="logo" class="logo">
             <h1>Toboolist</h1>
         </div>
     </header>
+    <!--main-->
+    <main class="container">
 
-    <main>
 
-        <div class="containers">
-
-            <button class="button1">Add Task</button>
-            <button class="button2">Add Section</button>
-
+        <!--toolbar-->
+        <div class="toolbar">
+            <button class="btn-primary">Add Task</button>
+            <button class="btn-secondary" disabled>Add Section</button>
         </div>
 
         <!--new task-->
         <section>
             <h2>New Task</h2>
             <ul>
-                <li class="true">Quarterly Newsletter
-                    <span class="editorial">Editorial</span>
-                </li>
+                <li class="done"><span class="status done"></span>Quarterly Newsletter <span
+                        class="tag editorial">Editorial</span></li>
             </ul>
         </section>
 
@@ -40,13 +39,23 @@
             <h2>Today</h2>
 
             <ul>
-                <li class="true">Recruiting blog post <span class="editorial">Editorial</span></li>
-                <li class="true">Mobile app lunch <span class="q1">Q1 Goals</span></li>
-                <li class="false">Interview John H. <span class="recruiting">recruiting</span></li>
-                <li class="true">Summit update to mobile storefronts <span class="mobile">mobile</span></li>
+                <li class="done">Recruiting blog post <span class="editorial">Editorial</span></li>
+                <li class="done">Mobile app lunch <span class="q1">Q1 Goals</span></li>
+                <li class="undone">Interview John H. <span class="recruiting">recruiting</span></li>
+                <li class="done">ummit update to mobile storefronts <span class="mobile">mobile</span></li>
             </ul>
         </section>
-        
+        <!--upcoming-->
+        <section>
+            <h2>Upcoming</h2>
+            <ul>
+                <li class="undone">Schedule meeting with Alex</li>
+                <li class="done">Homepage refresh <span class="website">Website</span></li>
+                <li class="done">Onboard new Sales team members <span class="sales">Sales</span></li>
+                <li class="done">Review editorial calendar <span class="editorial">Editorial</span></li>
+            </ul>
+        </section>
+
     </main>
 
 

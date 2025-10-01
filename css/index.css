@@ -7,49 +7,120 @@
 
 }
 /*header*/
-header {
-    
-    background-color: lightgray;
-    
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-bottom: 5px solid white;
 }
-/*title*/
-h1 {font-size: 50px; 
-    color: rgb(0, 0, 0);
+.logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+h1 {font-size: 40px; 
+    color: black;
 
 }
 
-.button1{
+/*main*/
+.container {
+  background: white;
+  width: 70%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px lightgray;
+}
+/*toolbar*/
+.toolbar{
+    margin-bottom: 20px;
+}
+.btn-primary{
     background-color: rgb(88, 168, 239);
     color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 14px;
 }
-.button2{
+.btn-secondary{
     background-color: white;
-    color: grey
+    color: grey;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 14px;
 }
-.containers{
-    text-align: center;
+/*new task*/
+
+.task {
+  list-style: none;
+  margin: 8px 0;
+  font-size: 15px;
 }
 
-.true{
-   color: green;
+li.done::before {
+  content: "✔";
+  color: green
 }
+li.undone::before {
+  content: "✘";
+  color: red;
+}
+
+
 .editorial{
-    background-color: aqua;
+    background-color: dodgerblue;
     color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 10px;
 }
- .q1{
-    background-color: blueviolet;
-    color: white;
- }
 
+.q1 {
+    background-color: purple;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 4px;
+    font-size: 10px; 
+
+}
  .recruiting{
     background-color: green;
     color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 10px;
  }
- .false{
-    color: red;
- }
+
  .mobile{
     background-color: orange;
     color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 10px;
  }
+ .website{
+    background-color: palevioletred;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+ }
+ .sales{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+ }
+ .editorial{
+    background-color: dodgerblue;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+ }
+ 
